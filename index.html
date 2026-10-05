@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ankit Tiwari – Portfolio</title>
+<meta name="description" content="Portfolio of Ankit Tiwari, Lead Software Engineer: API gateways, IAM, platform engineering, Java and Go.">
+<style>
+:root{--bg:#f3f6fb;--card:#fff;--text:#1e293b;--mut:#64748b;--line:#e2e8f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.w{max-width:980px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+nav .w{display:flex;gap:22px;align-items:center;height:56px;font-size:.93rem}
+nav b{margin-right:auto;background:linear-gradient(90deg,#2563eb,#7c3aed);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:1.05rem}
+nav a{color:var(--mut);text-decoration:none;font-weight:500}nav a:hover{color:#7c3aed}
+.hero{background:linear-gradient(135deg,#1e3a8a 0%,#0e8a8a 55%,#7c3aed 100%);color:#fff;padding:76px 0 80px}
+.hero h1{font-size:clamp(2.4rem,6vw,3.6rem);line-height:1.1;margin:0 0 8px;letter-spacing:-.02em}
+.hero .role{font-size:1.2rem;margin:0 0 18px;font-weight:600;color:#fde68a}
+.hero p.lead{max-width:680px;margin:0 0 26px;opacity:.95}
+.btn{display:inline-block;margin:0 10px 10px 0;padding:11px 22px;border-radius:8px;text-decoration:none;font-weight:700;border:2px solid #fff;color:#fff}
+.btn.p{background:#fff;color:#1e3a8a;box-shadow:0 6px 16px rgba(0,0,0,.25)}
+section{padding:34px 0}
+h2{font-size:1.4rem;margin:0 0 20px;display:flex;align-items:center;gap:10px;color:#1e3a8a}
+h2::before{content:"";width:6px;height:24px;border-radius:3px;background:linear-gradient(#2563eb,#7c3aed)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:18px}
+.card{background:var(--card);border-radius:14px;padding:20px;display:flex;flex-direction:column;border-top:5px solid var(--c);box-shadow:0 4px 14px rgba(30,58,138,.08);transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(30,58,138,.18)}
+.ctx{font-size:.76rem;text-transform:uppercase;letter-spacing:.07em;color:var(--c);font-weight:800}
+.card h3{margin:4px 0 8px;font-size:1.1rem}.card p{margin:0 0 14px;color:var(--mut);font-size:.95rem;flex:1}
+.tags span{display:inline-block;margin:0 6px 6px 0;padding:2px 10px;border-radius:999px;font-size:.78rem;font-weight:600;color:var(--c);background:color-mix(in srgb,var(--c) 11%,white)}
+.sks{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.sk{border-left:5px solid var(--c);background:color-mix(in srgb,var(--c) 7%,white);border-radius:10px;padding:12px 16px}
+.sk h4{margin:0;font-size:.95rem;color:var(--c)}.sk p{margin:3px 0 0;color:#475569;font-size:.92rem}
+.tl div{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 16px;margin-bottom:10px;background:var(--card);border-radius:10px;border-left:5px solid var(--c);box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.tl span{color:#fff;background:var(--c);padding:2px 12px;border-radius:999px;font-size:.82rem;font-weight:700}
+.box{background:var(--card);border-radius:12px;padding:16px 20px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+a{color:#7c3aed}footer{padding:30px 0 50px;color:var(--mut);font-size:.9rem;text-align:center}
+@media(max-width:600px){nav a:nth-of-type(n+3){display:none}.hero{padding:48px 0 52px}}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
+.cta a{display:inline-flex;align-items:center;gap:9px;padding:10px 18px;border-radius:999px;color:#fff;text-decoration:none;font-weight:700}
+.cta a svg{width:20px;height:20px;fill:#fff;flex:none}
+.cta .call{background:#2563eb}.cta .wa{background:#16a34a}
+.cta a:hover{filter:brightness(1.1)}
+</style></head><body>
+<nav><div class="w"><b>Ankit Tiwari</b><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></nav>
+<header class="hero"><div class="w">
+<h1>Ankit Tiwari</h1>
+<p class="role">Lead Software Engineer · Java, Microservices, Platform Engineering</p>
+<p class="lead">I build API gateways, IAM, and developer platforms for large engineering organizations. At HERE Technologies I lead 7 engineers on the gateway serving 1,200+ service deployments across HERE Maps.</p>
+<a class="btn p" href="Ankit_Tiwari_Resume.pdf" download>Download Resume</a><a class="btn" href="https://linkedin.com/in/imankit9">LinkedIn</a><a class="btn" href="https://github.com/connect-ankit">GitHub</a>
+</div></header>
+<main class="w">
+<section id="work"><h2>Selected Work</h2><div class="grid"><article class="card" style="--c:#2563eb"><div class="ctx">HERE Maps</div><h3>IAM API Gateway</h3><p>Lead a team of 7 building a centralized gateway for authentication, logging, rate limiting, traffic control, and zero-trust security. It serves 1,200+ service deployments.</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>Keycloak</span><span>OAuth 2.0</span><span>Kubernetes</span></div></article><article class="card" style="--c:#0e8a8a"><div class="ctx">HERE Maps</div><h3>Multi-Tenant Gateway POC</h3><p>Replaced the one-gateway-per-service model with one gateway serving many services. The codebase shrank by about 80%, 78% of services migrated, and infrastructure cost fell.</p><div class="tags"><span>Architecture</span><span>POC</span><span>Cost reduction</span></div></article><article class="card" style="--c:#7c3aed"><div class="ctx">HERE Maps</div><h3>Billing &amp; Access Management (BAM)</h3><p>Subscription-based request throttling, per-client token usage tracking, and a real-time consumption dashboard for platform consumers.</p><div class="tags"><span>PostgreSQL</span><span>Spring Boot</span><span>Rate limiting</span></div></article><article class="card" style="--c:#ea580c"><div class="ctx">HERE Maps</div><h3>NGINX to Traefik Migration</h3><p>Moved Kubernetes ingress to Traefik, consolidating reverse proxy, load balancing, SSL termination, and routing with native annotations.</p><div class="tags"><span>Kubernetes</span><span>Traefik</span><span>Helm</span></div></article><article class="card" style="--c:#db2777"><div class="ctx">HERE Maps</div><h3>Developer Automation Portal</h3><p>Self-service portal where service teams provision and configure resources on demand, removing ops bottlenecks globally.</p><div class="tags"><span>Spring Boot</span><span>Angular</span><span>Helm</span></div></article><article class="card" style="--c:#16a34a"><div class="ctx">HERE Maps</div><h3>OLP CLI</h3><p>Go CLI and post-deployment smoke-test suites that validate IAM workflows. Now the standard IAM utility across HERE&#x27;s international teams.</p><div class="tags"><span>Go</span><span>CLI</span><span>Testing</span></div></article><article class="card" style="--c:#0891b2"><div class="ctx">Open source</div><h3>Spring Framework Contribution</h3><p>Found a header validation regression during the Spring Boot 3.1.4 to 3.5.1 upgrade and fixed it in the Spring Framework. The pull request was merged and shipped in the next patch release.</p><div class="tags"><span>Spring Framework</span><span>Java</span><span>Open source</span></div></article><article class="card" style="--c:#ca8a04"><div class="ctx">Rakuten Symphony</div><h3>OSS Platform</h3><p>Designed a 12-factor microservice platform used by 10+ product teams, with end-to-end Kubernetes CI/CD and Camunda BPM workflow automation.</p><div class="tags"><span>Spring Boot</span><span>Kafka</span><span>Kubernetes</span><span>Camunda</span></div></article><article class="card" style="--c:#4f46e5"><div class="ctx">Spike</div><h3>LLM Developer Tooling Prototype</h3><p>Prototyped Claude API tooling for code review summaries, incident RCA drafts, and API documentation, with output guardrails and CI/CD integration.</p><div class="tags"><span>Claude API</span><span>Prompt engineering</span></div></article></div></section>
+<section id="skills"><h2>Skills</h2><div class="sks"><div class="sk" style="--c:#2563eb"><h4>Languages &amp; Frameworks</h4><p>Java, Spring Boot, Microservices, Go, ReactJS, JavaScript, Spring Framework, Spring Cloud, Hibernate, JPA, SQL</p></div><div class="sk" style="--c:#0e8a8a"><h4>Platform &amp; DevOps</h4><p>Kubernetes, Helm, Docker, Traefik, NGINX, Jenkins, Linux</p></div><div class="sk" style="--c:#7c3aed"><h4>Cloud &amp; Serverless</h4><p>AWS, GCP, EC2, S3, ALB, CloudWatch, Athena, AWS Lambda</p></div><div class="sk" style="--c:#ea580c"><h4>IAM &amp; API Gateway</h4><p>Keycloak, WSO2, OAuth 2.0, JWT, SSO</p></div><div class="sk" style="--c:#db2777"><h4>Messaging &amp; Databases</h4><p>Apache Kafka, PostgreSQL, MySQL, Redis</p></div><div class="sk" style="--c:#16a34a"><h4>Observability &amp; Workflow</h4><p>Grafana, Kibana, Camunda BPMN, Apache NiFi</p></div></div></section>
+<section id="experience"><h2>Experience</h2><div class="tl">
+<div style="--c:#0e8a8a"><b>Lead Software Engineer, HERE Technologies</b><span>Jul 2024 – Present</span></div>
+<div style="--c:#7c3aed"><b>Senior Software Engineer &amp; Team Lead, Rakuten Symphony</b><span>Aug 2021 – Jun 2024</span></div>
+<div style="--c:#ea580c"><b>Software Engineer, Rakuten Symphony</b><span>Jun 2019 – Aug 2021</span></div></div></section>
+<section><h2>Recognition</h2><p class="box">Patent: <a href="https://patents.google.com/patent/WO2023204801A1/en?oq=WO2023204801A1">PCT/US2022/025500 (published as WO2023204801A1)</a><br>Spring Framework open-source contributor · Oracle Certified Professional, Java SE 8 (2018)</p></section>
+<section id="contact"><h2>Contact</h2><div class="box">Bangalore, India · <a href="mailto:ankit4unet@gmail.com">ankit4unet@gmail.com</a> · <a href="https://linkedin.com/in/imankit9">LinkedIn</a> · <a href="https://github.com/connect-ankit">GitHub</a><br>Mobile: <b>+91 90972 68147</b><div class="cta"><a class="call" href="tel:+919097268147"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call</a><a class="wa" href="https://wa.me/919097268147" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.12-.56.12-.17.25-.64.8-.78.97-.14.17-.29.19-.54.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.72-1.33.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.57.12.17 1.75 2.67 4.24 3.75 1.58.68 2.2.74 3 .62.49-.07 1.46-.6 1.67-1.17.2-.58.2-1.07.14-1.17-.06-.1-.23-.17-.48-.29z"/></svg>WhatsApp</a></div></div></section>
+</main>
+<footer>© Ankit Tiwari</footer></body></html>
